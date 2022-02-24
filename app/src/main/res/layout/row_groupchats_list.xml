@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:layout_marginTop="1dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/groupIconIv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:src="@drawable/profile">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/groupTitleTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/groupIconIv"
+            android:text="Tên nhóm chat"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+
+            ></TextView>
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/groupTitleTv"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/groupIconIv"
+            android:text="Name"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/messageTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTv"
+            android:layout_marginStart="4dp"
+            android:layout_toEndOf="@+id/groupIconIv"
+            android:singleLine="true"
+            android:text="The message"
+            android:textColor="#786F6F"></TextView>
+
+        <TextView
+            android:id="@+id/timeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="10dp"
+            android:text="24:00 PM"
+            android:textSize="12sp"></TextView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

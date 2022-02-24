@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/messageLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileIv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/profile"
+            app:civ_border_color="@null"
+            android:visibility="visible"></de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/messageTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:text="The messenger"
+            android:padding="15dp"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_receiver"
+            ></TextView>
+
+        <ImageView
+            android:id="@+id/messageIv"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:padding="15dp"
+            android:src="@drawable/ic_add_image"
+            android:adjustViewBounds="true"
+            android:visibility="visible"
+            android:background="@drawable/bg_receiver"></ImageView>
+
+        <TextView
+            android:id="@+id/timeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="06:00PM"
+            android:textSize="12sp"></TextView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/isSeenTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="Đã gửi"
+        android:textAlignment="textEnd"
+        android:visibility="gone"></TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

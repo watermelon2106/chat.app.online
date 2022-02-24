@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/white"
+    app:contentPadding="3dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatarTv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/profile"
+            app:civ_border_color="#2D9EBFDF"
+            app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/avatarTv"
+            android:layout_toRightOf="@id/avatarTv"
+            android:text="Person Name"
+            android:textColor="@color/black"
+            android:textSize="18sp"></TextView>
+
+        <TextView
+            android:id="@+id/emailTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameTv"
+            android:layout_marginStart="7dp"
+            android:layout_toEndOf="@id/avatarTv"
+            android:layout_toRightOf="@id/avatarTv"
+            android:text="Person Email"></TextView>
+
+<!--        <ImageButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginTop="21dp"-->
+<!--            android:layout_marginEnd="38dp"-->
+<!--            android:background="@drawable/ic_add_friend"></ImageButton>-->
+
+        <TextView
+            android:id="@+id/statusTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailTv"
+            android:layout_marginStart="7dp"
+            android:layout_toEndOf="@id/avatarTv"
+            android:layout_toRightOf="@id/avatarTv"
+            android:text="Status"></TextView>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

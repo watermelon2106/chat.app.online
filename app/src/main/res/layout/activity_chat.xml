@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tele"
+    tools:context=".ChatActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <ImageButton
+            android:id="@+id/backhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_back">
+
+        </ImageButton>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileIv"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="His name"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/userStatusTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="online"
+                android:textColor="#AEA9A9"
+                android:textSize="11sp"></TextView>
+
+        </LinearLayout>
+
+            <ImageView
+                android:id="@+id/blockIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_unblock"></ImageView>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+    <!---RecyclerView-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/chatLayout"
+        android:layout_below="@+id/toolbar"></androidx.recyclerview.widget.RecyclerView>
+    <!---send message edit text and button layout-->
+    <LinearLayout
+        android:id="@+id/chatLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <!---imagebutton-->
+        <ImageButton
+            android:id="@+id/attachBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_attachment">
+
+        </ImageButton>
+
+        <!---EditText: input message-->
+        <EditText
+            android:id="@+id/messageEt"
+            android:layout_width="0dp"
+            android:inputType="textCapSentences|textMultiLine"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="Aa"
+            android:padding="15dp">
+        </EditText>
+        <!---Button: imageView send-->
+        <ImageButton
+            android:id="@+id/senBtn"
+            android:background="@null"
+            android:src="@drawable/ic_send"
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+        </ImageButton>
+    </LinearLayout>
+
+</RelativeLayout>

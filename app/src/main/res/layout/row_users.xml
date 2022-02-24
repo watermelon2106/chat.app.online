@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatarTv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:src="@drawable/profile"></de.hdodenhof.circleimageview.CircleImageView>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:orientation="vertical">
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/avatarTv"
+            android:layout_toRightOf="@id/avatarTv"
+            android:text="Person Name"
+            android:textColor="@color/black"
+            android:textSize="18sp"></TextView>
+
+        <TextView
+            android:id="@+id/emailTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameTv"
+            android:layout_marginStart="7dp"
+            android:layout_toEndOf="@id/avatarTv"
+            android:layout_toRightOf="@id/avatarTv"
+            android:text="Person Email"></TextView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/blockIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ic_unblock"
+        android:layout_marginEnd="10dp"
+        ></ImageView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

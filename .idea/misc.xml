@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable-anydpi/ic_edit.xml" value="0.3828125" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable-anydpi/ic_edit_white.xml" value="0.3828125" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable-hdpi/bg_receiver.xml" value="0.2911458333333333" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable-hdpi/bg_sender.xml" value="0.2911458333333333" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable-hdpi/bg_text.xml" value="0.2911458333333333" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable-hdpi/editextstyle.xml" value="0.2911458333333333" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable/bg_receiver.xml" value="0.3828125" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable/bg_row_left.xml" value="0.3828125" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable/bg_row_right.xml" value="0.3828125" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable/bg_sender.xml" value="0.3828125" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable/circle_offline.xml" value="0.3828125" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable/circle_online.xml" value="0.3828125" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable/ic_add_friend.xml" value="0.3828125" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable/ic_add_image.xml" value="0.3828125" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable/ic_back.xml" value="0.23229166666666667" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable/ic_edit.xml" value="0.23229166666666667" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable/ic_group.xml" value="0.3828125" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/drawable/textbox_outline.xml" value="0.3828125" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/activity_chat.xml" value="0.2" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/activity_group_chat.xml" value="0.2" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/activity_group_create.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/activity_group_edit.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/activity_group_info.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/activity_group_participant_add.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/activity_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/activity_there_profile.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/fragment_chat_list.xml" value="0.20520833333333333" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/fragment_chats.xml" value="0.36666666666666664" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/fragment_group_chats.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/fragment_profile2.xml" value="0.36666666666666664" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/fragment_users.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/fragment_video_call.xml" value="0.25729166666666664" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/row_chat_left.xml" value="0.2426470588235294" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/row_chat_right.xml" value="0.176" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/row_chatlist.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/row_group_chats_list.xml" value="0.275" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/row_groupchat_left.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/row_groupchat_right.xml" value="0.2" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/row_groupchats_list.xml" value="0.32006920415224915" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/row_participant_add.xml" value="0.24739583333333334" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/layout/row_users.xml" value="0.2" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/menu/menu_main.xml" value="0.264" />
+        <entry key="..\:/CNTTK16G/ChatzyApp/app/src/main/res/menu/menu_nav.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

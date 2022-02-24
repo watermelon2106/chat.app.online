@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pro"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/iconapp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/iconsapp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/nameapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconapp"
+        android:fontFamily="@font/damion"
+        android:gravity="center"
+        android:text="QUICKCHAT"
+        android:textColor="@color/white"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="34sp"></TextView>
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_btn"
+        android:text="Đăng ký ngay"></Button>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:text="Đăng nhập ngay"></Button>
+
+</RelativeLayout>

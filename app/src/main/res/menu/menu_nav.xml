@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_chat"
+        android:title="Nhắn tin"
+        android:icon="@drawable/ic_chat"></item>
+    <item android:id="@+id/nav_users"
+        android:title="Bạn bè"
+        android:icon="@drawable/ic_group_chat"></item>
+    <item android:id="@+id/nav_groupchats"
+        android:title="Nhóm"
+        android:icon="@drawable/ic_group"></item>
+    <item android:id="@+id/nav_profile"
+        android:title="Cài đặt"
+        android:icon="@drawable/ic_settings"></item>
+</menu>
